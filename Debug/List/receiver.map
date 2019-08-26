@@ -1,0 +1,31 @@
+RAM Allocation [bytes]
+Variable                                                                          Address   Size
+------------------------------------------------------------------------------------------------
+
+EEPROM Allocation [bytes]
+Variable                                                                          Address   Size
+------------------------------------------------------------------------------------------------
+
+Register Allocation
+Variable                                                                          Register  Size
+------------------------------------------------------------------------------------------------
+Code_tay_cam                                                                      R5           1
+xx                                                                                R4           1
+p                                                                                 R7           1
+dem                                                                               R8,R9        2
+
+FLASH Allocation [words]
+Function                                                                          Address   Size
+------------------------------------------------------------------------------------------------
+SPI_RW                                                                            0x00046     25
+SPI_Read                                                                          0x0005F     16
+RF_Init                                                                           0x0006F      8
+RF_Write                                                                          0x00077      9
+RF_Write_Address                                                                  0x00083     27
+RX_Mode                                                                           0x0009E      3
+RF_Config                                                                         0x000A1     27
+RF_RX_Read                                                                        0x000BC     19
+timer0_ovf_isr                                                                    0x000CF     45
+main                                                                              0x000FC     36
+alert                                                                             0x00120     20
+normal                                                                            0x00134      8
